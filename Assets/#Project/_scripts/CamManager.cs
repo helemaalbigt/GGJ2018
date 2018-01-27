@@ -13,6 +13,8 @@ public class CamManager : MonoBehaviour
 
 
     public OperatorCam[] Cams;
+    public Material[] CamMaterials;
+    public MeshRenderer GameScreen;
 
     void Start()
     {
@@ -26,6 +28,27 @@ public class CamManager : MonoBehaviour
 
     void Update()
     {
-
+        string keys = Input.inputString;
+        int number;
+        if (int.TryParse(keys, out number))
+        {
+            if (number < Cams.Length)
+            {
+                for (int i = 0; i < Cams.Length; i++)
+                {
+                    if (i == number)
+                    {
+                        Cams[i].Active = true;
+                        Material[] mats = GameScreen.materials;
+                        mats[0] = CamMaterials[i];
+                        GameScreen.materials = mats;
+                    }
+                    else
+                    {
+                        Cams[i].Active = false;
+                    }
+                }
+            }
+        }
     }
 }
