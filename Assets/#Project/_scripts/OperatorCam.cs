@@ -17,19 +17,20 @@ public class OperatorCam : MonoBehaviour
         {
             _active = value;
 
-            //ScreenSpace
+            /*ScreenSpace
             if (_active)
             {
-                float height = 1;
+                float height = (1 - InactiveWidth) * aspect;
                 float yOffset = (1 - height) / 2;
                 cam.rect = new Rect(0, yOffset, 1 - InactiveWidth, height);
             }
             else
             {
-                float height = 1f/CamManager.Instance.Cams.Length;
+                float height = InactiveWidth * aspect;
                 float yOffset = 0.5f+height * (CamManager.Instance.Cams.Length-2)/2f-height*Slot;
                 cam.rect = new Rect(1 - InactiveWidth, yOffset, InactiveWidth, height);
             }
+            */
         }
     }
     public int Slot;
@@ -47,7 +48,7 @@ public class OperatorCam : MonoBehaviour
         trans = GetComponent<Transform>();
         cam = trans.GetComponentInChildren<Camera>();
 
-        aspect = 1080f / 1920f*Screen.width/Screen.height;
+        aspect = 3.5f/4f*Screen.width/Screen.height;
     }
 
     protected virtual void Update()
