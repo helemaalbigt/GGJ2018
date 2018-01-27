@@ -11,28 +11,38 @@ ModelImporter:
     100006: Corridor_wall
     100008: Corridor_wall_001
     100010: Corridor_wall_002
+    100012: Corridor
+    100014: Ceiling
     400000: //RootNode
     400002: Cell
     400004: Cell_door
     400006: Corridor_wall
     400008: Corridor_wall_001
     400010: Corridor_wall_002
+    400012: Corridor
+    400014: Ceiling
     2100000: unnamed
     2300000: Cell
     2300002: Cell_door
     2300004: Corridor_wall
     2300006: Corridor_wall_001
     2300008: Corridor_wall_002
+    2300010: Corridor
+    2300012: Ceiling
     3300000: Cell
     3300002: Cell_door
     3300004: Corridor_wall
     3300006: Corridor_wall_001
     3300008: Corridor_wall_002
+    3300010: Corridor
+    3300012: Ceiling
     4300000: Corridor_wall_002
     4300002: Corridor_wall_001
     4300004: Corridor_wall
     4300006: Cell_door
     4300008: Cell
+    4300010: Corridor
+    4300012: Ceiling
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
