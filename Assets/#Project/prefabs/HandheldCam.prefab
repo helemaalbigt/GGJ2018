@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 20227786062425076}
   - component: {fileID: 124543240677684964}
   - component: {fileID: 81737712263614378}
+  - component: {fileID: 114345222685788660}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -105,7 +106,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1603976381222246}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.398, y: 1.244, z: 0.728}
+  m_LocalPosition: {x: 0.373, y: 1.244, z: 0.959}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4151907447832372}
@@ -292,7 +293,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1281310320452454}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!114 &114260234789867552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -312,6 +313,18 @@ MonoBehaviour:
   onGrabCollisionDelay: 0
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
+--- !u!114 &114345222685788660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1281310320452454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 0b0369fe4d76f884389ac45c8a7db4f6, type: 2}
 --- !u!114 &114474137642738134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -365,7 +378,7 @@ MonoBehaviour:
   touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   allowedTouchControllers: 0
   ignoredColliders: []
-  isGrabbable: 0
+  isGrabbable: 1
   holdButtonToGrab: 1
   stayGrabbedOnTeleport: 1
   validDrop: 1
@@ -386,4 +399,4 @@ Behaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1281310320452454}
-  m_Enabled: 1
+  m_Enabled: 0
