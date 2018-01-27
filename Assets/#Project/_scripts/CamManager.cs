@@ -17,6 +17,11 @@ public class CamManager : MonoBehaviour
     void Start()
     {
         _instance = this;
+        Cams[0].Active = true;
+        for (int i = 1; i < Cams.Length; i++)
+        {
+            Cams[i].Active = false;
+        }
     }
 
     void Update()

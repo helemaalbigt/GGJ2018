@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OperatorCam : MonoBehaviour
 {
-    protected const float InactiveWidth = 0.2f;
+    protected const float InactiveWidth = 0.3f;
 
     private bool _active;
     public bool Active
@@ -20,15 +20,15 @@ public class OperatorCam : MonoBehaviour
             //ScreenSpace
             if (_active)
             {
-                float height = (1 - InactiveWidth) * aspect;
+                float height = 1;
                 float yOffset = (1 - height) / 2;
                 cam.rect = new Rect(0, yOffset, 1 - InactiveWidth, height);
             }
             else
             {
-                float height = InactiveWidth * aspect;
-                float yOffset = 0;
-                cam.rect = new Rect(1 - InactiveWidth, 0, InactiveWidth, height);
+                float height = 1f/CamManager.Instance.Cams.Length;
+                float yOffset = 0.5f+height * (CamManager.Instance.Cams.Length-2)/2f-height*Slot;
+                cam.rect = new Rect(1 - InactiveWidth, yOffset, InactiveWidth, height);
             }
         }
     }
@@ -47,7 +47,7 @@ public class OperatorCam : MonoBehaviour
         trans = GetComponent<Transform>();
         cam = trans.GetComponentInChildren<Camera>();
 
-        aspect = 1080f / 1920f;
+        aspect = 1080f / 1920f*Screen.width/Screen.height;
     }
 
     protected virtual void Update()
