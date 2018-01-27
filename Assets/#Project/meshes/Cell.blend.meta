@@ -14,6 +14,9 @@ ModelImporter:
     100012: Corridor
     100014: Ceiling
     100016: Cell_wall_panel
+    100018: Corridor_001
+    100020: Light_bulb
+    100022: Wall_lamp
     400000: //RootNode
     400002: Cell
     400004: Cell_door
@@ -23,6 +26,9 @@ ModelImporter:
     400012: Corridor
     400014: Ceiling
     400016: Cell_wall_panel
+    400018: Corridor_001
+    400020: Light_bulb
+    400022: Wall_lamp
     2100000: unnamed
     2300000: Cell
     2300002: Cell_door
@@ -32,6 +38,9 @@ ModelImporter:
     2300010: Corridor
     2300012: Ceiling
     2300014: Cell_wall_panel
+    2300016: Corridor_001
+    2300018: Light_bulb
+    2300020: Wall_lamp
     3300000: Cell
     3300002: Cell_door
     3300004: Corridor_wall
@@ -40,6 +49,9 @@ ModelImporter:
     3300010: Corridor
     3300012: Ceiling
     3300014: Cell_wall_panel
+    3300016: Corridor_001
+    3300018: Light_bulb
+    3300020: Wall_lamp
     4300000: Corridor_wall_002
     4300002: Corridor_wall_001
     4300004: Corridor_wall
@@ -48,6 +60,9 @@ ModelImporter:
     4300010: Corridor
     4300012: Ceiling
     4300014: Cell_wall_panel
+    4300016: Wall_lamp
+    4300018: Light_bulb
+    4300020: Corridor_001
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
