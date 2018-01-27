@@ -25,7 +25,6 @@ public class StartscreenStep : GameStep
         while (!pcReady || !vrReady) {
             if (Input.GetKeyDown(KeyCode.Space) && !pcReady) {
                 pcReady = true;
-                Debug.Log("yup " + vrReady);
                 if(!vrReady)
                     _startPrompt.text = "waiting for VR player...";
             }

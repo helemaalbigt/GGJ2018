@@ -15,8 +15,7 @@ public class PlayAnimtationStep : GameStep
     IEnumerator PlayAnimation() {
         _animator.Play(_animation);
 
-        while (_animator.GetCurrentAnimatorStateInfo(0).IsName(_animation)) 
-            yield return null;
+       yield return new WaitForSeconds(_animation.Length);
 
         Next();
     }
