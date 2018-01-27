@@ -5,6 +5,7 @@ using System;
 
 public class PlayAnimtationStep : GameStep
 {
+    public bool _waitForAnimToFinish;
     public Animator _animator;
     public string _animation;
 
@@ -14,9 +15,7 @@ public class PlayAnimtationStep : GameStep
 
     IEnumerator PlayAnimation() {
         _animator.Play(_animation);
-
-       yield return new WaitForSeconds(_animation.Length);
-
+        yield return _waitForAnimToFinish ? new WaitForSeconds(_animation.Length) : null;
         Next();
     }
 }

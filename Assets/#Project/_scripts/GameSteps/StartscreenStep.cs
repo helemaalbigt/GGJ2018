@@ -5,8 +5,9 @@ using UnityEngine.XR;
 
 public class StartscreenStep : GameStep
 {
-    public GameObject _titleScreen;
+    public Text _title;
     public Text _startPrompt;
+    public GameObject _collabTip;
 
     public override void StartStep() {
         SetupScene();
@@ -14,7 +15,10 @@ public class StartscreenStep : GameStep
     }
 
     private void SetupScene() {
-        _titleScreen.SetActive(true);
+        _title.gameObject.SetActive(true);
+        _startPrompt.gameObject.SetActive(true);
+        _collabTip.gameObject.SetActive(false);
+
         _startPrompt.text = "press space to start";
     }
 
@@ -35,8 +39,6 @@ public class StartscreenStep : GameStep
 
             yield return null;
         }
-
-        _titleScreen.SetActive(false);
 
         Next();
     }
