@@ -12,6 +12,7 @@ TagManager:
   - Torso
   - OtherSaucers
   - Tag
+  - Fuse
   layers:
   - Default
   - TransparentFX
