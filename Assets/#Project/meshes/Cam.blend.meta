@@ -31,7 +31,32 @@ ModelImporter:
     4300004: Camera
     7400000: Default Take
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camera
+    second: {fileID: 2100000, guid: cfd230c2359c71c4788ab6f454b8de99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lense
+    second: {fileID: 2100000, guid: 8e807d973c3c91448909835b7f548acd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 90561d4ab3f12db4b8a1cc812bfa998a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mount
+    second: {fileID: 2100000, guid: 55607eb3269e19346b21cd4fab0c0382, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stalk
+    second: {fileID: 2100000, guid: 550b27db6f2acaf41b224136494b4567, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -61,7 +86,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
