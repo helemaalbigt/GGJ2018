@@ -15,7 +15,8 @@ public abstract class GameStep : MonoBehaviour
     public abstract void StartStep();
 
     public void Next() {
-        if(nextStep != null)
+        Debug.Log("Step Complete: "+name);
+        if (nextStep != null)
             nextStep.StartStep();
     }
 }

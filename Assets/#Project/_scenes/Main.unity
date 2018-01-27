@@ -352,8 +352,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFirstStep: 0
   nextStep: {fileID: 0}
-  _animator: {fileID: 0}
-  _animation: 
+  _animator: {fileID: 1575761675}
+  _animation: ZoomIn
 --- !u!1001 &153968170
 Prefab:
   m_ObjectHideFlags: 0
@@ -4463,6 +4463,7 @@ GameObject:
   - component: {fileID: 1575761671}
   - component: {fileID: 1575761670}
   - component: {fileID: 1575761674}
+  - component: {fileID: 1575761675}
   m_Layer: 0
   m_Name: Desktop Camera
   m_TagString: Untagged
@@ -4546,6 +4547,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: 1532d6dff8012bb438db76e70907d5b7, type: 2}
+--- !u!95 &1575761675
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1575761669}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 95e5d37b75eef5c4c8ea02e1b9fcc593, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1587474053 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: 2519d390e642f1d4d80a8af14ab1b366, type: 3}
