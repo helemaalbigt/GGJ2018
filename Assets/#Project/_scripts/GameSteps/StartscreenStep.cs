@@ -37,6 +37,8 @@ public class StartscreenStep : GameStep
             yield return null;
         }
 
+        _titleScreen.SetActive(false);
+
         Debug.Log("GAME START");
         Next();
     }
