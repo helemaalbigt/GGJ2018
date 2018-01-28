@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.607
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07039453, g: 0.071691014, b: 0.0604479, a: 0.607}
+  m_IndirectSpecularColor: {r: 0.07020818, g: 0.07143523, b: 0.060121566, a: 0.607}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -23196,7 +23196,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 16:45:40
+  m_Text: 11-10-84 17:01:34
 --- !u!222 &701463859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -40080,14 +40080,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bea43bc385cdb6b4fb8cbcac5cf03674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PushVector: {x: 0, y: -5.95, z: 0}
+  PushVector: {x: 0, y: -4.95, z: 0}
   PushRotation: {x: 0, y: 0, z: 0}
   PushCompletedEvents:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  TimeToPush: 50
+  TimeToPush: 35
   DelayBeforePush: 1
   EnableGravityAfterPush: 0
   pushOnAwake: 0
@@ -49981,22 +49981,22 @@ Prefab:
     - target: {fileID: 224606264777785898, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 165
+      value: 160.92844
       objectReference: {fileID: 0}
     - target: {fileID: 224606264777785898, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 34.042553
       objectReference: {fileID: 0}
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 167.5
+      value: 160.15474
       objectReference: {fileID: 0}
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 22.437138
       objectReference: {fileID: 0}
     - target: {fileID: 224697517037814452, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
@@ -65889,7 +65889,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 16:45:40
+  m_Text: 11-10-84 17:01:34
 --- !u!222 &1970367710
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -69107,7 +69107,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 16:45:40
+  m_Text: 11-10-84 17:01:34
 --- !u!222 &2092365615
 CanvasRenderer:
   m_ObjectHideFlags: 0
