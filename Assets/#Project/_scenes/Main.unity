@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.607
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.105023, g: 0.13125682, b: 0.18102531, a: 0.607}
+  m_IndirectSpecularColor: {r: 0.07020818, g: 0.07143523, b: 0.060121566, a: 0.607}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -951,6 +951,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -1311,7 +1316,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -2486,6 +2491,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -3019,6 +3029,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -3838,7 +3853,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -4402,6 +4417,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -5803,6 +5823,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -6195,6 +6220,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -6877,6 +6907,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -7021,6 +7056,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -7744,7 +7784,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -8535,7 +8575,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -8721,7 +8761,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -8785,6 +8825,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -10075,7 +10120,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -10791,6 +10836,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -11559,6 +11609,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -11978,7 +12033,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -13415,13 +13470,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 407391599}
-  m_LocalRotation: {x: 0.7060227, y: 0.03914145, z: 0.03914145, w: 0.7060227}
+  m_LocalRotation: {x: -0.010949996, y: 0.05535108, z: -0.0006070731, w: 0.9984067}
   m_LocalPosition: {x: 1.916, y: 3.855, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 83.65401, y: 90.00001, z: 90.00001}
+  m_LocalEulerAnglesHint: {x: -1.2490001, y: 6.3480005, z: -0.13900001}
 --- !u!1001 &413728841
 Prefab:
   m_ObjectHideFlags: 0
@@ -14568,6 +14623,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -14751,7 +14811,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -15429,6 +15489,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -17220,7 +17285,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -17461,6 +17526,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -18911,7 +18981,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -19993,6 +20063,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -22542,7 +22617,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -22673,7 +22748,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -23121,7 +23196,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 16:23:52
+  m_Text: 11-10-84 16:40:28
 --- !u!222 &701463859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24833,6 +24908,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -25264,7 +25344,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -27611,6 +27691,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -28478,6 +28563,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -28654,6 +28744,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -31949,6 +32044,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -33037,7 +33137,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -33835,7 +33935,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -33890,6 +33990,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -34525,7 +34630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1049778352}
   m_Layer: 0
-  m_Name: Lever
+  m_Name: TeleportDestination
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34537,13 +34642,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1049778351}
-  m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.89, y: 0.111, z: -0.005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 550422127}
   m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1050393823
 GameObject:
   m_ObjectHideFlags: 0
@@ -34779,7 +34884,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -35533,6 +35638,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -35840,6 +35950,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -36370,7 +36485,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -36623,7 +36738,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -38590,6 +38705,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -39162,7 +39282,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -39904,6 +40024,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -40980,7 +41105,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -41924,7 +42049,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -42504,7 +42629,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -43302,6 +43427,11 @@ Prefab:
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -49041,6 +49171,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114966558358513582, guid: 7e54e208748de434680f5320b918e641,
+        type: 2}
+      propertyPath: defaultEvents.OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4241777957452614, guid: 7e54e208748de434680f5320b918e641, type: 2}
       propertyPath: m_LocalPosition.x
       value: 3.5
@@ -49092,9 +49227,40 @@ Prefab:
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000007450581
       objectReference: {fileID: 0}
+    - target: {fileID: 114966558358513582, guid: 7e54e208748de434680f5320b918e641,
+        type: 2}
+      propertyPath: defaultEvents.OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114966558358513582, guid: 7e54e208748de434680f5320b918e641,
+        type: 2}
+      propertyPath: defaultEvents.OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114966558358513582, guid: 7e54e208748de434680f5320b918e641,
+        type: 2}
+      propertyPath: defaultEvents.OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1474609920}
+    - target: {fileID: 114966558358513582, guid: 7e54e208748de434680f5320b918e641,
+        type: 2}
+      propertyPath: defaultEvents.OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PrisonBreak
+      objectReference: {fileID: 0}
+    - target: {fileID: 114966558358513582, guid: 7e54e208748de434680f5320b918e641,
+        type: 2}
+      propertyPath: defaultEvents.OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7e54e208748de434680f5320b918e641, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1474609920 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114067779932999478, guid: 7e54e208748de434680f5320b918e641,
+    type: 2}
+  m_PrefabInternal: {fileID: 1474609919}
+  m_Script: {fileID: 11500000, guid: 931b5cc877bf8934aa98c121908cbfdd, type: 3}
 --- !u!1001 &1474677536
 Prefab:
   m_ObjectHideFlags: 0
@@ -49575,7 +49741,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -49820,7 +49986,7 @@ Prefab:
     - target: {fileID: 224606264777785898, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 35.416664
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
@@ -49830,7 +49996,7 @@ Prefab:
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 23.75
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224697517037814452, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
@@ -51421,7 +51587,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -52151,6 +52317,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -52646,7 +52817,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -52718,7 +52889,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -53120,7 +53291,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -53251,7 +53422,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -54939,6 +55110,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -57719,6 +57895,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -58390,7 +58571,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -58835,6 +59016,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -61582,7 +61768,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -64221,6 +64407,11 @@ Prefab:
       propertyPath: m_Name
       value: Cell_door (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
@@ -65240,7 +65431,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -65698,7 +65889,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 16:23:52
+  m_Text: 11-10-84 16:40:28
 --- !u!222 &1970367710
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -68369,7 +68560,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951700846247498, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_LocalScale.x
@@ -68916,7 +69107,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 16:23:52
+  m_Text: 11-10-84 16:40:28
 --- !u!222 &2092365615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -69032,6 +69223,11 @@ Prefab:
     - target: {fileID: 1668954547336578, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
       propertyPath: m_Name
       value: Cell_door (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+        type: 2}
+      propertyPath: pushOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
@@ -69212,7 +69408,7 @@ Prefab:
     - target: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
         type: 2}
       propertyPath: pushOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
