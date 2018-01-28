@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 526203da6bcb749728e5a136d5d54610
-timeCreated: 1517029336
+guid: 6a2c8cdaeb47ba04eb7f26c353492dd9
+timeCreated: 1517152068
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -8,29 +8,19 @@ ModelImporter:
     100000: //RootNode
     100002: Camera
     100004: Mount
-    100006: Sphere
     400000: //RootNode
     400002: Camera
     400004: Mount
-    400006: Sphere
-    2100000: unnamed
-    2100002: Material
-    2100004: Metal
-    2100006: Mount
-    2100008: Camera
-    2100010: Stalk
-    2100012: Lense
+    2100000: Mount
+    2100002: Camera
+    2100004: Stalk
+    2100006: Lense
     2300000: Camera
     2300002: Mount
-    2300004: Sphere
     3300000: Camera
     3300002: Mount
-    3300004: Sphere
-    4300000: Sphere
-    4300002: Mount
-    4300004: Camera
-    7400000: Default Take
-    9500000: //RootNode
+    4300000: Mount
+    4300002: Camera
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -42,11 +32,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Lense
     second: {fileID: 2100000, guid: 8e807d973c3c91448909835b7f548acd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Metal
-    second: {fileID: 2100000, guid: 90561d4ab3f12db4b8a1cc812bfa998a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -111,7 +96,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -130,7 +115,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
