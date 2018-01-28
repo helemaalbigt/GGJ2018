@@ -16099,6 +16099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 530062187}
   - component: {fileID: 530062186}
+  - component: {fileID: 530062188}
   m_Layer: 0
   m_Name: VRTK
   m_TagString: Untagged
@@ -16144,6 +16145,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &530062188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 530062185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44cd0f80dcc4154e8dfa89570987c97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _target: {fileID: 1049778352}
+  fadeInTime: 1
+  blinkToColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &532352651
 Prefab:
   m_ObjectHideFlags: 0
@@ -21264,7 +21279,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 15:43:26
+  m_Text: 11-10-84 15:54:35
 --- !u!222 &701463859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32049,7 +32064,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1049778352}
-  - component: {fileID: 1049778353}
   m_Layer: 0
   m_Name: Lever
   m_TagString: Untagged
@@ -32070,20 +32084,6 @@ Transform:
   m_Father: {fileID: 550422127}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1049778353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1049778351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f44cd0f80dcc4154e8dfa89570987c97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _target: {fileID: 1049778352}
-  fadeInTime: 1
-  blinkToColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &1050393823
 GameObject:
   m_ObjectHideFlags: 0
@@ -36173,7 +36173,7 @@ Prefab:
         type: 2}
       propertyPath: _teleport
       value: 
-      objectReference: {fileID: 1049778353}
+      objectReference: {fileID: 530062188}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35e9de14a4e314145889d20443fe7ef3, type: 2}
   m_IsPrefabParent: 0
@@ -46292,7 +46292,7 @@ Prefab:
     - target: {fileID: 224606264777785898, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 35.416664
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
@@ -46302,7 +46302,7 @@ Prefab:
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 23.75
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224697517037814452, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
@@ -60863,7 +60863,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 15:43:26
+  m_Text: 11-10-84 15:54:35
 --- !u!222 &1970367710
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -63945,7 +63945,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 15:43:26
+  m_Text: 11-10-84 15:54:35
 --- !u!222 &2092365615
 CanvasRenderer:
   m_ObjectHideFlags: 0
