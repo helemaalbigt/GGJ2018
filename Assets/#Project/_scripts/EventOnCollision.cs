@@ -8,12 +8,21 @@ public class EventOnCollision : MonoBehaviour
     public bool OneTime = true;
     public UnityEvent OnCollision;
 
+    private bool done;
+
     private void OnCollisionEnter(Collision collision)
     {
-        OnCollision.Invoke();
+        if (!OneTime||(OneTime&&!done))
+        {
+            OnCollision.Invoke();
+        }
         if (OneTime)
         {
-            enabled = false;
+            done = true;
         }
+    }
+    public void ResetEvent()
+    {
+        done = false;
     }
 }
