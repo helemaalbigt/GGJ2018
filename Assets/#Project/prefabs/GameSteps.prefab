@@ -11,6 +11,22 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1091718389410236}
   m_IsPrefabParent: 1
+--- !u!1 &1031029431121060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4213855732826778}
+  - component: {fileID: 114814567810368564}
+  m_Layer: 0
+  m_Name: TextPrompt (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1091718389410236
 GameObject:
   m_ObjectHideFlags: 0
@@ -21,6 +37,22 @@ GameObject:
   - component: {fileID: 4960910332515698}
   m_Layer: 0
   m_Name: GameSteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1142546569575412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4882483174398562}
+  - component: {fileID: 114457213532760118}
+  m_Layer: 0
+  m_Name: TextPrompt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,33 +74,65 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1300465525906380
+--- !u!1 &1362504963721876
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4780653368731376}
-  - component: {fileID: 114107440811069062}
+  - component: {fileID: 4453245222741204}
+  - component: {fileID: 114698627637325384}
   m_Layer: 0
-  m_Name: TextPrompt
+  m_Name: TextPrompt (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1586288443241854
+--- !u!1 &1465401528783902
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4864786309649194}
-  - component: {fileID: 114778949121329314}
+  - component: {fileID: 4568598041301630}
+  - component: {fileID: 114292794047911822}
   m_Layer: 0
-  m_Name: TextPrompt
+  m_Name: TextPrompt (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1569386849786532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4047423013856536}
+  - component: {fileID: 114629772868259534}
+  m_Layer: 0
+  m_Name: GetKey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1581587637122258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4029444228780442}
+  - component: {fileID: 114795192293750284}
+  m_Layer: 0
+  m_Name: TextPrompt (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,22 +154,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1634639012546540
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4757504139366516}
-  - component: {fileID: 114076420781508330}
-  m_Layer: 0
-  m_Name: TextPrompt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1697723130998820
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,18 +170,157 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4757504139366516
+--- !u!1 &1731571637950882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4536127924575616}
+  - component: {fileID: 114384910552617832}
+  m_Layer: 0
+  m_Name: TextPrompt (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1925936132758234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4354843843640182}
+  - component: {fileID: 114538068760184090}
+  m_Layer: 0
+  m_Name: TextPrompt (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1992332497641366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4267537745613214}
+  - component: {fileID: 114228020739274408}
+  m_Layer: 0
+  m_Name: TextPrompt (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4029444228780442
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1634639012546540}
+  m_GameObject: {fileID: 1581587637122258}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4047423013856536
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569386849786532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4213855732826778
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031029431121060}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4267537745613214
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1992332497641366}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4354843843640182
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1925936132758234}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4453245222741204
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1362504963721876}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4536127924575616
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731571637950882}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4568598041301630
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1465401528783902}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4769779091148172
 Transform:
@@ -148,19 +335,6 @@ Transform:
   m_Father: {fileID: 4960910332515698}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4780653368731376
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1300465525906380}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4960910332515698}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4852638040599158
 Transform:
   m_ObjectHideFlags: 1
@@ -174,18 +348,18 @@ Transform:
   m_Father: {fileID: 4960910332515698}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4864786309649194
+--- !u!4 &4882483174398562
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1586288443241854}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 1142546569575412}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4960910332515698}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4924929482105208
 Transform:
@@ -213,46 +387,54 @@ Transform:
   - {fileID: 4852638040599158}
   - {fileID: 4769779091148172}
   - {fileID: 4924929482105208}
-  - {fileID: 4757504139366516}
-  - {fileID: 4864786309649194}
-  - {fileID: 4780653368731376}
+  - {fileID: 4453245222741204}
+  - {fileID: 4568598041301630}
+  - {fileID: 4354843843640182}
+  - {fileID: 4882483174398562}
+  - {fileID: 4536127924575616}
+  - {fileID: 4267537745613214}
+  - {fileID: 4047423013856536}
+  - {fileID: 4213855732826778}
+  - {fileID: 4029444228780442}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114076420781508330
+--- !u!114 &114228020739274408
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1634639012546540}
+  m_GameObject: {fileID: 1992332497641366}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isFirstStep: 0
-  nextStep: {fileID: 114778949121329314}
-  message: '"I know you can''t see..."'
+  nextStep: {fileID: 114629772868259534}
+  message: '"There should be a key near the door."'
   _bottomScreenPrompt: {fileID: 0}
   _text: {fileID: 0}
   _nextPrompt: {fileID: 0}
---- !u!114 &114107440811069062
+  _nextMethod: 1
+--- !u!114 &114292794047911822
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1300465525906380}
+  m_GameObject: {fileID: 1465401528783902}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isFirstStep: 0
-  nextStep: {fileID: 0}
-  message: '"And I''m busting you all out of here."'
+  nextStep: {fileID: 114538068760184090}
+  message: '"I''m busting you out of here."'
   _bottomScreenPrompt: {fileID: 0}
   _text: {fileID: 0}
   _nextPrompt: {fileID: 0}
+  _nextMethod: 0
 --- !u!114 &114332209588726906
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -265,10 +447,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFirstStep: 0
-  nextStep: {fileID: 0}
+  nextStep: {fileID: 114698627637325384}
   _waitForAnimToFinish: 1
   _animator: {fileID: 0}
   _animation: ZoomIn
+--- !u!114 &114384910552617832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731571637950882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114228020739274408}
+  message: '"... so I''ll be your eyes."'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 0
+--- !u!114 &114457213532760118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142546569575412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114384910552617832}
+  message: '"I know it''s too dark to see..."'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 0
+--- !u!114 &114538068760184090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1925936132758234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114457213532760118}
+  message: '"All of you."'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 0
+--- !u!114 &114629772868259534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569386849786532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004fcf02561245d46afba82bce01e321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114814567810368564}
+  events: {fileID: 0}
 --- !u!114 &114691561344129868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -282,26 +532,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFirstStep: 0
   nextStep: {fileID: 114332209588726906}
-  _waitForAnimToFinish: 1
+  _waitForAnimToFinish: 0
   _animator: {fileID: 0}
   _animation: UiHide
---- !u!114 &114778949121329314
+--- !u!114 &114698627637325384
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1586288443241854}
+  m_GameObject: {fileID: 1362504963721876}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isFirstStep: 0
-  nextStep: {fileID: 114107440811069062}
-  message: '"so I''ll be your eyes."'
+  nextStep: {fileID: 114292794047911822}
+  message: '"I''ve seen enough of this."'
   _bottomScreenPrompt: {fileID: 0}
   _text: {fileID: 0}
   _nextPrompt: {fileID: 0}
+  _nextMethod: 0
+--- !u!114 &114795192293750284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581587637122258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114629772868259534}
+  message: '"There should be a lock on one of the walls."'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 1
+--- !u!114 &114814567810368564
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031029431121060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114795192293750284}
+  message: '"Good."'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 0
 --- !u!114 &114889083389416992
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -318,3 +605,4 @@ MonoBehaviour:
   _title: {fileID: 0}
   _startPrompt: {fileID: 0}
   _collabTip: {fileID: 0}
+  _checkForVr: 0
