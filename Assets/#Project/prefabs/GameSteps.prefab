@@ -11,6 +11,22 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1091718389410236}
   m_IsPrefabParent: 1
+--- !u!1 &1008715628451604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4755731006966554}
+  - component: {fileID: 114935558231951434}
+  m_Layer: 0
+  m_Name: FuseStep
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1031029431121060
 GameObject:
   m_ObjectHideFlags: 0
@@ -22,6 +38,22 @@ GameObject:
   - component: {fileID: 114814567810368564}
   m_Layer: 0
   m_Name: TextPrompt (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1084937530025242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4969547567152606}
+  - component: {fileID: 114564781377416278}
+  m_Layer: 0
+  m_Name: TextPromptFailure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,6 +106,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1165576376303394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4951225140484996}
+  - component: {fileID: 114685054696919044}
+  m_Layer: 0
+  m_Name: TextPrompt (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1248774623345996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4813054431607810}
+  - component: {fileID: 114097694471074668}
+  m_Layer: 0
+  m_Name: TextPrompt (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1362504963721876
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,6 +170,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1523873235643840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4389658100240896}
+  - component: {fileID: 114615044217583120}
+  m_Layer: 0
+  m_Name: TextPrompt (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1569386849786532
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,9 +194,25 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4047423013856536}
-  - component: {fileID: 114629772868259534}
+  - component: {fileID: 114055333935769752}
   m_Layer: 0
-  m_Name: GetKey
+  m_Name: OpenLock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1572133959175428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4113895003906634}
+  - component: {fileID: 114236353460577680}
+  m_Layer: 0
+  m_Name: TextPromptSuccess01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -132,7 +228,23 @@ GameObject:
   - component: {fileID: 4029444228780442}
   - component: {fileID: 114795192293750284}
   m_Layer: 0
-  m_Name: TextPrompt (7)
+  m_Name: TextPrompt (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1584815243913454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4387763153500438}
+  - component: {fileID: 114629772868259534}
+  m_Layer: 0
+  m_Name: PickupCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,6 +261,38 @@ GameObject:
   - component: {fileID: 114332209588726906}
   m_Layer: 0
   m_Name: ZoomInOnScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1646963336540904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4983501723682442}
+  - component: {fileID: 114559082411140420}
+  m_Layer: 0
+  m_Name: TextPrompt (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1650000940226366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4610675029561456}
+  - component: {fileID: 114278707496877094}
+  m_Layer: 0
+  m_Name: TextPromptSuccess02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -186,6 +330,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1764118391214576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4249690705574376}
+  - component: {fileID: 114756320810217006}
+  m_Layer: 0
+  m_Name: GetKey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1925936132758234
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,6 +378,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1994916112936142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4406527371189974}
+  - component: {fileID: 114498775872234510}
+  m_Layer: 0
+  m_Name: TextPrompt (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4029444228780442
 Transform:
   m_ObjectHideFlags: 1
@@ -229,7 +405,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4960910332515698}
-  m_RootOrder: 11
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4047423013856536
 Transform:
@@ -237,12 +413,25 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1569386849786532}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4960910332515698}
-  m_RootOrder: 9
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4113895003906634
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1572133959175428}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4213855732826778
 Transform:
@@ -256,6 +445,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4960910332515698}
   m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4249690705574376
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1764118391214576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4267537745613214
 Transform:
@@ -282,6 +484,45 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4960910332515698}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4387763153500438
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1584815243913454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4389658100240896
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1523873235643840}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4406527371189974
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994916112936142}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4453245222741204
 Transform:
@@ -322,6 +563,32 @@ Transform:
   m_Father: {fileID: 4960910332515698}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4610675029561456
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1650000940226366}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4755731006966554
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1008715628451604}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4769779091148172
 Transform:
   m_ObjectHideFlags: 1
@@ -334,6 +601,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4960910332515698}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4813054431607810
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248774623345996}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4852638040599158
 Transform:
@@ -374,6 +654,19 @@ Transform:
   m_Father: {fileID: 4960910332515698}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4951225140484996
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165576376303394}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4960910332515698
 Transform:
   m_ObjectHideFlags: 1
@@ -393,12 +686,81 @@ Transform:
   - {fileID: 4882483174398562}
   - {fileID: 4536127924575616}
   - {fileID: 4267537745613214}
-  - {fileID: 4047423013856536}
+  - {fileID: 4249690705574376}
   - {fileID: 4213855732826778}
+  - {fileID: 4983501723682442}
+  - {fileID: 4047423013856536}
+  - {fileID: 4389658100240896}
+  - {fileID: 4387763153500438}
+  - {fileID: 4406527371189974}
+  - {fileID: 4951225140484996}
+  - {fileID: 4813054431607810}
   - {fileID: 4029444228780442}
+  - {fileID: 4755731006966554}
+  - {fileID: 4969547567152606}
+  - {fileID: 4113895003906634}
+  - {fileID: 4610675029561456}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4969547567152606
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1084937530025242}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4983501723682442
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1646963336540904}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910332515698}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114055333935769752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569386849786532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a318d3decb7e8439b3d1df25e43eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114615044217583120}
+  events: {fileID: 0}
+--- !u!114 &114097694471074668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248774623345996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114795192293750284}
+  message: '"... it should open the door."'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 1
 --- !u!114 &114228020739274408
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -411,12 +773,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFirstStep: 0
-  nextStep: {fileID: 114629772868259534}
+  nextStep: {fileID: 114756320810217006}
   message: '"There should be a key near the door."'
   _bottomScreenPrompt: {fileID: 0}
   _text: {fileID: 0}
   _nextPrompt: {fileID: 0}
   _nextMethod: 1
+--- !u!114 &114236353460577680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1572133959175428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114097694471074668}
+  message: '"Oh wait..."'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 0
+--- !u!114 &114278707496877094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1650000940226366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114097694471074668}
+  message: '"... that actually set off the prison-compactor ..."'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 0
 --- !u!114 &114292794047911822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -487,6 +885,24 @@ MonoBehaviour:
   _text: {fileID: 0}
   _nextPrompt: {fileID: 0}
   _nextMethod: 0
+--- !u!114 &114498775872234510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994916112936142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114685054696919044}
+  message: '"There are three fuses..."'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 0
 --- !u!114 &114538068760184090
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -505,20 +921,92 @@ MonoBehaviour:
   _text: {fileID: 0}
   _nextPrompt: {fileID: 0}
   _nextMethod: 0
+--- !u!114 &114559082411140420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1646963336540904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114055333935769752}
+  message: '"You should be able to unlock one of the panels on the wall."'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 1
+--- !u!114 &114564781377416278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1084937530025242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114097694471074668}
+  message: '"Oh no! You set of the prison-compactor instead!"'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 0
+--- !u!114 &114615044217583120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1523873235643840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114629772868259534}
+  message: '"Now pick up that camera and show me the inside of that breaker box "'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 2
 --- !u!114 &114629772868259534
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1569386849786532}
+  m_GameObject: {fileID: 1584815243913454}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 004fcf02561245d46afba82bce01e321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isFirstStep: 0
-  nextStep: {fileID: 114814567810368564}
+  nextStep: {fileID: 114498775872234510}
   events: {fileID: 0}
+--- !u!114 &114685054696919044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165576376303394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114097694471074668}
+  message: '"... if we remove these in the right order..."'
+  _bottomScreenPrompt: {fileID: 0}
+  _text: {fileID: 0}
+  _nextPrompt: {fileID: 0}
+  _nextMethod: 0
 --- !u!114 &114691561344129868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -553,6 +1041,20 @@ MonoBehaviour:
   _text: {fileID: 0}
   _nextPrompt: {fileID: 0}
   _nextMethod: 0
+--- !u!114 &114756320810217006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1764118391214576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004fcf02561245d46afba82bce01e321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114814567810368564}
+  events: {fileID: 0}
 --- !u!114 &114795192293750284
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -565,12 +1067,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFirstStep: 0
-  nextStep: {fileID: 114629772868259534}
-  message: '"There should be a lock on one of the walls."'
+  nextStep: {fileID: 114935558231951434}
+  message: '"ok - remove the left one first, then the right one, then the middle one."'
   _bottomScreenPrompt: {fileID: 0}
   _text: {fileID: 0}
   _nextPrompt: {fileID: 0}
-  _nextMethod: 1
+  _nextMethod: 3
 --- !u!114 &114814567810368564
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -583,7 +1085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFirstStep: 0
-  nextStep: {fileID: 114795192293750284}
+  nextStep: {fileID: 114559082411140420}
   message: '"Good."'
   _bottomScreenPrompt: {fileID: 0}
   _text: {fileID: 0}
@@ -606,3 +1108,17 @@ MonoBehaviour:
   _startPrompt: {fileID: 0}
   _collabTip: {fileID: 0}
   _checkForVr: 0
+--- !u!114 &114935558231951434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1008715628451604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f45a2fbddc5394e9435248d7d2a6aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstStep: 0
+  nextStep: {fileID: 114236353460577680}
+  failStep: {fileID: 114564781377416278}

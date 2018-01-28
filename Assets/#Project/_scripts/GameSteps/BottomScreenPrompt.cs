@@ -8,7 +8,9 @@ public class BottomScreenPrompt : GameStep
     public enum NextMethod
     {
         confirmation,
-        wait
+        wait,
+        noWait,
+        nextStep
     }
 
     [Space(15)]
@@ -18,7 +20,13 @@ public class BottomScreenPrompt : GameStep
     public GameObject _nextPrompt;
     public NextMethod _nextMethod;
 
+    private bool _nextStepDone;
+
     public override void StartStep() {
+        if (_nextMethod == NextMethod.nextStep) {
+            nextStep.onActionComplete += () => _nextStepDone = true;
+        }
+
         StartCoroutine(ShowPrompt());
     }
 
@@ -48,6 +56,15 @@ public class BottomScreenPrompt : GameStep
 
             case NextMethod.wait:
                 yield return new WaitForSeconds(2f);
+                break;
+
+            case NextMethod.noWait:
+                break;
+
+            case NextMethod.nextStep:
+                while (!_nextStepDone) {
+                    yield return null;
+                }
                 break;
         }
 

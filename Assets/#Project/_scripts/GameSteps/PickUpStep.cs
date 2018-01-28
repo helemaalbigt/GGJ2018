@@ -4,7 +4,7 @@ using UnityEngine;
 using VRTK;
 using VRTK.UnityEventHelper;
 
-public class GetKeyStep : GameStep
+public class PickUpStep : GameStep
 {
     public VRTK_InteractableObject_UnityEvents events;
 
