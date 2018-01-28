@@ -37,7 +37,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4708112100828184}
-  - component: {fileID: 95335743540791458}
   m_Layer: 0
   m_Name: MountedCamera
   m_TagString: Untagged
@@ -56,6 +55,7 @@ GameObject:
   - component: {fileID: 33599146151836220}
   - component: {fileID: 23719673400207922}
   - component: {fileID: 114918477345334952}
+  - component: {fileID: 82387682616065300}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -163,8 +163,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1085058042205334}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.70710677}
-  m_LocalPosition: {x: 0.874, y: 2.922, z: 0.009}
+  m_LocalRotation: {x: -0, y: 0.0000004768371, z: -0, w: 1}
+  m_LocalPosition: {x: 0.008, y: 2.3, z: -0.624}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children:
   - {fileID: 4388508711730004}
@@ -420,23 +420,86 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1713139898426766}
   m_Enabled: 0
---- !u!95 &95335743540791458
-Animator:
-  serializedVersion: 3
+--- !u!82 &82387682616065300
+AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1085058042205334}
+  m_GameObject: {fileID: 1301247389041670}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 526203da6bcb749728e5a136d5d54610, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!114 &114058093406240736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -464,11 +527,13 @@ MonoBehaviour:
   FOVMax: 100
   FOVMin: 60
   FOVSpeed: 3
+  MovingSound: {fileID: 8300000, guid: be4f8b73a3ed6734ab9d7a386f546abd, type: 3}
+  StopSound: {fileID: 8300000, guid: 7615025027585b549a6d5e25a992f04b, type: 3}
   XMax: 30
   XMin: -30
-  YMax: 30
-  YMin: -30
-  Speed: 10
+  YMax: 0
+  YMin: 0
+  Speed: 0
 --- !u!124 &124451532488530834
 Behaviour:
   m_ObjectHideFlags: 1

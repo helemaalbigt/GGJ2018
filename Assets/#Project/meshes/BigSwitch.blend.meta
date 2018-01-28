@@ -21,7 +21,27 @@ ModelImporter:
     3300002: Handle
     4300000: Handle
     4300002: Cube
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle
+    second: {fileID: 2100000, guid: 9214946377037e244a1c7f042cd77fe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HandleMetal
+    second: {fileID: 2100000, guid: 5a8bc83b6efe906429e2374cddc9af21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SwitchBack
+    second: {fileID: 2100000, guid: 56da30533ed36c74ebae536f5c30992c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SwitchDetail
+    second: {fileID: 2100000, guid: ed1ae401c80bed840b2f6813783c1994, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -51,7 +71,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.2
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
