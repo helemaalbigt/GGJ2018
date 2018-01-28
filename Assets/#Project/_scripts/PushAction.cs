@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PushAction : MonoBehaviour {
 
 	public Vector3 PushVector;
 	public Vector3 PushRotation;
+
+	public UnityEvent PushCompletedEvents;
 
 	public float TimeToPush = 1.0f;
 	public float DelayBeforePush = 0.5f;
@@ -48,6 +51,10 @@ public class PushAction : MonoBehaviour {
 		if (_rigidBody && EnableGravityAfterPush) {
 			_rigidBody.useGravity = true;
 			_rigidBody.isKinematic = false;
+		}
+
+		if (PushCompletedEvents != null) {
+			PushCompletedEvents.Invoke ();
 		}
 	}
 }
