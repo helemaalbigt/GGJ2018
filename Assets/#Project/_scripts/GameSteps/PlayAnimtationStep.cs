@@ -5,6 +5,7 @@ using System;
 
 public class PlayAnimtationStep : GameStep
 {
+    [Space(15)]
     public bool _waitForAnimToFinish;
     public Animator _animator;
     public string _animation;
