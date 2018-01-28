@@ -5,13 +5,13 @@ using UnityEngine.Events;
 
 public class KillerCollider : MonoBehaviour {
 
-	public Collider collider;
+	//public Collider collider;
 	public List<string> tags;
 	public UnityEvent collisionEvents;
 
 	// Use this for initialization
 	void Start () {
-		collider = GetComponent<Collider> ();
+		//collider = GetComponent<Collider> ();
 	}
 	
 	void OnCollisionEnter(Collision col) {
