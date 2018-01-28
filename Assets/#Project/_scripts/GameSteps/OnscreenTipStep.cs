@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class OnscreenTipStep : GameStep {
+    [Space(15)]
     public Text _title;
     public Text _startPrompt;
     public GameObject _collabTip;
