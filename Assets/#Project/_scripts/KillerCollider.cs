@@ -18,9 +18,7 @@ public class KillerCollider : MonoBehaviour {
 		Debug.Log (this.name + " collided with " + col.gameObject + " (" + col.gameObject.tag + ")");
 		if (tags.Contains (col.gameObject.tag) || tags.Count == 0) {	// Tags list empty, or the colliding object is in the list
 			Debug.Log ("Invoking collision event(s)!");
-			if (collisionEvents != null) {
-				collisionEvents.Invoke ();
-			}
+			collisionEvents.Invoke ();
 		}
 	}
 }
