@@ -9,6 +9,8 @@ public class SuccessLastMessage : GameStep {
     public VRTK_Lever lever;
     private string msg1 = "\"They'll know what to do next.\"";
 
+    private bool leverThrown;
+
     public override void StartStep() {
         lever.ValueChanged += OnLeverPulled;
 
@@ -20,7 +22,9 @@ public class SuccessLastMessage : GameStep {
     }
 
     private void OnLeverPulled(object sender, Control3DEventArgs control3DEventArgs) {
-        
-        Next();
+        if (!leverThrown) {
+            leverThrown = true;
+            Next();
+        }
     }
 }
