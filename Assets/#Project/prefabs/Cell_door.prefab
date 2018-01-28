@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4951700846247498}
   - component: {fileID: 33348062735088188}
   - component: {fileID: 23321066632023046}
+  - component: {fileID: 114207382604336348}
   m_Layer: 0
   m_Name: Cell_door
   m_TagString: Untagged
@@ -82,3 +83,25 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1668954547336578}
   m_Mesh: {fileID: 4300006, guid: 2519d390e642f1d4d80a8af14ab1b366, type: 3}
+--- !u!114 &114207382604336348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1668954547336578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bea43bc385cdb6b4fb8cbcac5cf03674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PushVector: {x: 0, y: 0, z: 0}
+  PushRotation: {x: 0, y: 0, z: -75}
+  PushCompletedEvents:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  TimeToPush: 5
+  DelayBeforePush: 0
+  EnableGravityAfterPush: 0
+  pushOnAwake: 0
