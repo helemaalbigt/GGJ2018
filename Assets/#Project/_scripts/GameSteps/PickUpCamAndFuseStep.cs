@@ -96,9 +96,11 @@ public class PickUpCamAndFuseStep : GameStep {
     }
 
     private void OnGrabCam(object arg0, InteractableObjectEventArgs interactableObjectEventArgs) {
-        camPickedUp = true;
-        if (!allFusesPulled) {
-            ShowMsg2();
+        if (!camPickedUp) {
+            camPickedUp = true;
+            if (!allFusesPulled) {
+                ShowMsg2();
+            }
         }
     }
 

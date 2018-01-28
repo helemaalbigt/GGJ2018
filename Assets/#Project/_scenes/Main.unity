@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.607
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07020818, g: 0.07143523, b: 0.060121566, a: 0.607}
+  m_IndirectSpecularColor: {r: 0.104870446, g: 0.13104673, b: 0.18078054, a: 0.607}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -9777,7 +9777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTillFade: 0
   blinkTransitionSpeed: 0.1
-  fadeColor: {r: 0.625, g: 0, b: 0, a: 1}
+  fadeColor: {r: 0.30882353, g: 0.013624562, b: 0.013624562, a: 1}
   headsetCollision: {fileID: 0}
   headsetFade: {fileID: 0}
 --- !u!114 &308635693
@@ -13470,13 +13470,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 407391599}
-  m_LocalRotation: {x: -0.010949996, y: 0.05535108, z: -0.0006070731, w: 0.9984067}
+  m_LocalRotation: {x: 0.70710677, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.916, y: 3.855, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: -1.2490001, y: 6.3480005, z: -0.13900001}
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
 --- !u!1001 &413728841
 Prefab:
   m_ObjectHideFlags: 0
@@ -23196,7 +23196,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 17:01:34
+  m_Text: 11-10-84 17:20:25
 --- !u!222 &701463859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -49981,22 +49981,22 @@ Prefab:
     - target: {fileID: 224606264777785898, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 160.92844
+      value: 165
       objectReference: {fileID: 0}
     - target: {fileID: 224606264777785898, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 34.042553
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 160.15474
+      value: 170
       objectReference: {fileID: 0}
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 22.437138
+      value: 23.75
       objectReference: {fileID: 0}
     - target: {fileID: 224697517037814452, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
@@ -65889,7 +65889,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 17:01:34
+  m_Text: 11-10-84 17:20:25
 --- !u!222 &1970367710
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -69107,7 +69107,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 17:01:34
+  m_Text: 11-10-84 17:20:25
 --- !u!222 &2092365615
 CanvasRenderer:
   m_ObjectHideFlags: 0
