@@ -8,7 +8,7 @@ public class CameraCollide : MonoBehaviour
     public Transform BrokenCamera;
     public UnityEvent OnCollision;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
         OnCollision.Invoke();
         Transform trans = GetComponent<Transform>();

@@ -14,7 +14,7 @@ public class KillerCollider : MonoBehaviour {
 		//collider = GetComponent<Collider> ();
 	}
 	
-	void OnCollisionEnter(Collision col) {
+	void OnTriggerEnter(Collider col) {
 		Debug.Log (this.name + " collided with " + col.gameObject + " (" + col.gameObject.tag + ")");
 		if (tags.Contains (col.gameObject.tag) || tags.Count == 0) {	// Tags list empty, or the colliding object is in the list
 			Debug.Log ("Invoking collision event(s)!");

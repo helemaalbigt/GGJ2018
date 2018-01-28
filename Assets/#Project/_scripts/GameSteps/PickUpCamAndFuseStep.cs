@@ -124,12 +124,14 @@ public class PickUpCamAndFuseStep : GameStep {
 
     private void OnCeilingKill() {
         if (!playerDied) {
+            
             playerDied = true;
             failStep.StartStep();
         }
     }
 
     private void OnPlayerSurvive() {
+        Debug.Log("SURVIVED");
         _prompt.Clear();
         Next();
     }
