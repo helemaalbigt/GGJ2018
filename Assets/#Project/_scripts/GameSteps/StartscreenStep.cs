@@ -5,6 +5,7 @@ using UnityEngine.XR;
 
 public class StartscreenStep : GameStep
 {
+    [Space(15)]
     public Text _title;
     public Text _startPrompt;
     public GameObject _collabTip;
