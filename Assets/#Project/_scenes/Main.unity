@@ -5865,6 +5865,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4788343704948828, guid: 69b70d1f805e2c14dbd7f1837b3cb803,
     type: 2}
   m_PrefabInternal: {fileID: 159002386}
+--- !u!114 &159567029 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114966558358513582, guid: 7e54e208748de434680f5320b918e641,
+    type: 2}
+  m_PrefabInternal: {fileID: 1474609919}
+  m_Script: {fileID: 11500000, guid: 01b86803f9669aa40be161b11ec9272e, type: 3}
 --- !u!1 &159589923
 GameObject:
   m_ObjectHideFlags: 0
@@ -23115,7 +23121,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 16:14:10
+  m_Text: 11-10-84 16:21:21
 --- !u!222 &701463859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39090,6 +39096,11 @@ Prefab:
       propertyPath: _teleport
       value: 
       objectReference: {fileID: 530062188}
+    - target: {fileID: 114443669027052102, guid: 35e9de14a4e314145889d20443fe7ef3,
+        type: 2}
+      propertyPath: lever
+      value: 
+      objectReference: {fileID: 159567029}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35e9de14a4e314145889d20443fe7ef3, type: 2}
   m_IsPrefabParent: 0
@@ -49804,22 +49815,22 @@ Prefab:
     - target: {fileID: 224606264777785898, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 160.92844
+      value: 165
       objectReference: {fileID: 0}
     - target: {fileID: 224606264777785898, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 34.042553
+      value: 35.416664
       objectReference: {fileID: 0}
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 160.15474
+      value: 167.5
       objectReference: {fileID: 0}
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 22.437138
+      value: 23.75
       objectReference: {fileID: 0}
     - target: {fileID: 224697517037814452, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
@@ -56395,15 +56406,15 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d727807a44b59e845917333be72508eb, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 822794929e1b11940abdf92e97df3576, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.057
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 124
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -56453,7 +56464,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -59734,7 +59745,7 @@ Prefab:
     - target: {fileID: 224818652680694020, guid: 679cda734b8f7354a9b199cecd17333f,
         type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 224818652680694020, guid: 679cda734b8f7354a9b199cecd17333f,
         type: 2}
@@ -65687,7 +65698,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 16:14:10
+  m_Text: 11-10-84 16:21:21
 --- !u!222 &1970367710
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -68905,7 +68916,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 16:14:10
+  m_Text: 11-10-84 16:21:21
 --- !u!222 &2092365615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -69624,8 +69635,8 @@ Transform:
   - {fileID: 1873086888}
   - {fileID: 83237468}
   - {fileID: 1856921271}
-  - {fileID: 1536375666}
   - {fileID: 2007172042}
+  - {fileID: 1536375666}
   m_Father: {fileID: 550422127}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
