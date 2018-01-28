@@ -9,6 +9,7 @@ public class StartscreenStep : GameStep
     public Text _title;
     public Text _startPrompt;
     public GameObject _collabTip;
+    public bool _checkForVr;
 
     public override void StartStep() {
         SetupScene();
@@ -25,7 +26,7 @@ public class StartscreenStep : GameStep
 
     IEnumerator WaitForUsers() {
         bool pcReady = false;
-        bool vrReady = false;
+        bool vrReady = !_checkForVr;
 
         while (!pcReady || !vrReady) {
             if (Input.GetKeyDown(KeyCode.Space) && !pcReady) {

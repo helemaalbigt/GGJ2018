@@ -53,7 +53,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: UiVisibility
-  m_Speed: 1
+  m_Speed: 1000
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -109,7 +109,7 @@ AnimatorStateMachine:
     m_Position: {x: 240, y: 72, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102143772694642086}
-    m_Position: {x: 288, y: 144, z: 0}
+    m_Position: {x: 312, y: 168, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102986892623158892}
     m_Position: {x: 390.22272, y: 243.45755, z: 0}

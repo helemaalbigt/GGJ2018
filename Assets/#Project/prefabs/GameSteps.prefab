@@ -58,54 +58,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1339825533523608
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4424500124980574}
-  - component: {fileID: 114241521757694964}
-  m_Layer: 0
-  m_Name: FadeOutUi
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1348087730593166
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4655733797281864}
-  - component: {fileID: 114801314923519838}
-  m_Layer: 0
-  m_Name: FadeInUi
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1375842984007502
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4033448429246750}
-  - component: {fileID: 114284576860982106}
-  m_Layer: 0
-  m_Name: PromptCommunication
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1586288443241854
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,45 +122,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4033448429246750
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1375842984007502}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4960910332515698}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4424500124980574
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1339825533523608}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4960910332515698}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4655733797281864
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1348087730593166}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4960910332515698}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4757504139366516
 Transform:
   m_ObjectHideFlags: 1
@@ -220,7 +133,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4960910332515698}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4769779091148172
 Transform:
@@ -246,7 +159,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4960910332515698}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4852638040599158
 Transform:
@@ -272,7 +185,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4960910332515698}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4924929482105208
 Transform:
@@ -300,9 +213,6 @@ Transform:
   - {fileID: 4852638040599158}
   - {fileID: 4769779091148172}
   - {fileID: 4924929482105208}
-  - {fileID: 4655733797281864}
-  - {fileID: 4033448429246750}
-  - {fileID: 4424500124980574}
   - {fileID: 4757504139366516}
   - {fileID: 4864786309649194}
   - {fileID: 4780653368731376}
@@ -321,7 +231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFirstStep: 0
-  nextStep: {fileID: 0}
+  nextStep: {fileID: 114778949121329314}
   message: '"I know you can''t see..."'
   _bottomScreenPrompt: {fileID: 0}
   _text: {fileID: 0}
@@ -339,42 +249,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFirstStep: 0
   nextStep: {fileID: 0}
-  message: '"And I''m busting you out of here."'
+  message: '"And I''m busting you all out of here."'
   _bottomScreenPrompt: {fileID: 0}
   _text: {fileID: 0}
   _nextPrompt: {fileID: 0}
---- !u!114 &114241521757694964
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1339825533523608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b434e97a294cd714284ba8797ab8e6e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isFirstStep: 0
-  nextStep: {fileID: 114076420781508330}
-  _waitForAnimToFinish: 0
-  _animator: {fileID: 0}
-  _animation: UiHide
---- !u!114 &114284576860982106
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1375842984007502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c600b73164ab3c440baaa52cff7361fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isFirstStep: 0
-  nextStep: {fileID: 114241521757694964}
-  _title: {fileID: 0}
-  _startPrompt: {fileID: 0}
-  _collabTip: {fileID: 0}
 --- !u!114 &114332209588726906
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -387,7 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFirstStep: 0
-  nextStep: {fileID: 114801314923519838}
+  nextStep: {fileID: 0}
   _waitForAnimToFinish: 1
   _animator: {fileID: 0}
   _animation: ZoomIn
@@ -404,7 +282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFirstStep: 0
   nextStep: {fileID: 114332209588726906}
-  _waitForAnimToFinish: 0
+  _waitForAnimToFinish: 1
   _animator: {fileID: 0}
   _animation: UiHide
 --- !u!114 &114778949121329314
@@ -419,27 +297,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFirstStep: 0
-  nextStep: {fileID: 0}
-  message: '"but I''ll be your eyes."'
+  nextStep: {fileID: 114107440811069062}
+  message: '"so I''ll be your eyes."'
   _bottomScreenPrompt: {fileID: 0}
   _text: {fileID: 0}
   _nextPrompt: {fileID: 0}
---- !u!114 &114801314923519838
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1348087730593166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b434e97a294cd714284ba8797ab8e6e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isFirstStep: 0
-  nextStep: {fileID: 114284576860982106}
-  _waitForAnimToFinish: 0
-  _animator: {fileID: 0}
-  _animation: UiShow
 --- !u!114 &114889083389416992
 MonoBehaviour:
   m_ObjectHideFlags: 1
