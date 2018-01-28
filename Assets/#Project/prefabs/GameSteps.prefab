@@ -583,6 +583,7 @@ MonoBehaviour:
   fuse2: {fileID: 0}
   fuse3: {fileID: 0}
   ceilingCollider: {fileID: 0}
+  pushAction: {fileID: 0}
   failStep: {fileID: 114716178460415624}
   autoGrabCam: 0
   autoGrabFuses: 0

@@ -33,6 +33,7 @@ public class PickUpCamAndFuseStep : GameStep {
     private int fusesPulled = 0;
     private bool allFusesPulled;
     private bool camPickedUp;
+    private bool playerDied;
 
     public override void StartStep() {
         cam.OnGrab.AddListener(OnGrabCam);
@@ -120,7 +121,10 @@ public class PickUpCamAndFuseStep : GameStep {
     }
 
     private void OnCeilingKill() {
-        failStep.StartStep();
+        if (!playerDied) {
+            playerDied = true;
+            failStep.StartStep();
+        }
     }
 
     private void OnPlayerSurvive() {
