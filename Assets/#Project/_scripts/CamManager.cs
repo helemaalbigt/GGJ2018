@@ -32,7 +32,8 @@ public class CamManager : MonoBehaviour
         int number;
         if (int.TryParse(keys, out number))
         {
-            if (number < Cams.Length)
+            number--;
+            if (number < Cams.Length && number > -1)
             {
                 for (int i = 0; i < Cams.Length; i++)
                 {
