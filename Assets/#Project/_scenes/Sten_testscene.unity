@@ -1382,6 +1382,23 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400008, guid: f365f97456a68b9418c1513d9fec7229, type: 3}
   m_PrefabInternal: {fileID: 513552800}
+--- !u!1 &529437633 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1835501353527510, guid: c5e1d13edd45eb944bd40d8328dff96f,
+    type: 2}
+  m_PrefabInternal: {fileID: 861016858}
+--- !u!65 &529437635
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 529437633}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25124207, y: 0.2633299, z: 0.17267707}
+  m_Center: {x: 5.183703e-16, y: 0.07295415, z: -0.07069514}
 --- !u!1 &530062185
 GameObject:
   m_ObjectHideFlags: 0
@@ -2338,7 +2355,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 90561d4ab3f12db4b8a1cc812bfa998a, type: 2}
+  - {fileID: 2100000, guid: caef252d578b6e449a3d6baaf1842b80, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3124,7 +3141,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 90561d4ab3f12db4b8a1cc812bfa998a, type: 2}
+  - {fileID: 2100000, guid: caef252d578b6e449a3d6baaf1842b80, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4575,7 +4592,7 @@ Prefab:
     - target: {fileID: 2300002, guid: 2519d390e642f1d4d80a8af14ab1b366, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 90561d4ab3f12db4b8a1cc812bfa998a, type: 2}
+      objectReference: {fileID: 2100000, guid: caef252d578b6e449a3d6baaf1842b80, type: 2}
     - target: {fileID: 2300000, guid: 2519d390e642f1d4d80a8af14ab1b366, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4714,6 +4731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PushVector: {x: 0, y: 0, z: 0}
+  PushRotation: {x: 0, y: 0, z: 0}
   TimeToPush: 1
   DelayBeforePush: 0.5
   EnableGravityAfterPush: 1
@@ -6952,6 +6970,26 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400008, guid: f365f97456a68b9418c1513d9fec7229, type: 3}
   m_PrefabInternal: {fileID: 1993611788}
+--- !u!1 &1993717119 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: 2519d390e642f1d4d80a8af14ab1b366, type: 3}
+  m_PrefabInternal: {fileID: 1372806469}
+--- !u!114 &1993717123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1993717119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bea43bc385cdb6b4fb8cbcac5cf03674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PushVector: {x: 0, y: 0, z: 0}
+  PushRotation: {x: 0, y: 0, z: -75}
+  TimeToPush: 5
+  DelayBeforePush: 5
+  EnableGravityAfterPush: 0
 --- !u!4 &2017257978 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 2519d390e642f1d4d80a8af14ab1b366, type: 3}
@@ -7106,6 +7144,25 @@ MeshFilter:
 GameObject:
   m_PrefabParentObject: {fileID: 100014, guid: 2519d390e642f1d4d80a8af14ab1b366, type: 3}
   m_PrefabInternal: {fileID: 1372806469}
+--- !u!114 &2139918630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2139918628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3190225ea12c0c4458dc13147044d8e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider: {fileID: 0}
+  tags:
+  - 
+  collisionEvents:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &2139918632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7118,9 +7175,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PushVector: {x: 0, y: -5.9, z: 0}
-  TimeToPush: 60
-  DelayBeforePush: 5
+  PushRotation: {x: 0, y: 0, z: 0}
+  TimeToPush: 30
+  DelayBeforePush: 0
   EnableGravityAfterPush: 0
+--- !u!65 &2139918634
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2139918628}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0.25}
+--- !u!54 &2139918635
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2139918628}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2145717291
 GameObject:
   m_ObjectHideFlags: 0
