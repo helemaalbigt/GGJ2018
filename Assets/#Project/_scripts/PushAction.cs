@@ -25,6 +25,7 @@ public class PushAction : MonoBehaviour {
 	}
 
 	public void Push() {
+        Debug.Log("START PUSH");
 		StartCoroutine (_Push());
 	}
 

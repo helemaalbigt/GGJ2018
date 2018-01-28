@@ -14,6 +14,7 @@ public class PickUpCamAndFuseStep : GameStep {
     public VRTK_SnapDropZone_UnityEvents fuse3;
     public KillerCollider ceilingCollider;
     public PushAction pushAction;
+    public PushAction dropPanel;
     public GameStep failStep;
 
     [Space(15)]
@@ -112,6 +113,7 @@ public class PickUpCamAndFuseStep : GameStep {
 
         allFusesPulled = true;
         pushAction.Push();
+        dropPanel.Push();
 
         ShowMsg5();
     }
