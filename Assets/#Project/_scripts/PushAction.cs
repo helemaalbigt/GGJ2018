@@ -11,11 +11,14 @@ public class PushAction : MonoBehaviour {
 	public float DelayBeforePush = 0.5f;
 	public bool EnableGravityAfterPush = true;
 
+    public bool pushOnAwake;
+
 	private Rigidbody _rigidBody;
 
 	void Start () {
 		_rigidBody = this.GetComponent<Rigidbody> ();
-		Push ();
+        if(pushOnAwake)
+            Push();
 	}
 
 	public void Push() {
