@@ -16,11 +16,18 @@ public class BottomScreenPrompt : GameStep
     }
 
     IEnumerator ShowPrompt() {
-        _text.text = "";
-        for(int i = 0; i < message.Length; i++) {
-            _text.text += message[i];
-            yield return new WaitForSeconds(.1f);
+        if (_text != null) {
+            _bottomScreenPrompt.SetActive(false);
+            _nextPrompt.SetActive(false);
+            _text.text = "";
+            for (int i = 0; i < message.Length; i++) {
+                _text.text += message[i];
+                yield return new WaitForSeconds(.1f);
+            }
+            _nextPrompt.SetActive(true);
         }
+
+        Debug.Log(message);
 
         while (!Input.GetKeyDown(KeyCode.Space)) {
             yield return null;
