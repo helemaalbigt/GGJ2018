@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 41354a1c5ee38ab46979fe96b06e46ee
-timeCreated: 1517160480
-licenseType: Free
+guid: 219294bcd800eaf419dd75b42dea1b7e
+timeCreated: 1517164513
+licenseType: Pro
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 2
   useLegacyImporter: 1
-  quality: 1
+  quality: 0.5
   isColorLinear: 0
   frameRange: 0
   startFrame: -1
