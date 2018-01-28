@@ -1116,6 +1116,36 @@ Prefab:
         type: 2}
       propertyPath: nextStep
       value: 
+      objectReference: {fileID: 646958741}
+    - target: {fileID: 114076420781508330, guid: 35e9de14a4e314145889d20443fe7ef3,
+        type: 2}
+      propertyPath: nextStep
+      value: 
+      objectReference: {fileID: 717386234}
+    - target: {fileID: 114778949121329314, guid: 35e9de14a4e314145889d20443fe7ef3,
+        type: 2}
+      propertyPath: nextStep
+      value: 
+      objectReference: {fileID: 1135566618}
+    - target: {fileID: 114778949121329314, guid: 35e9de14a4e314145889d20443fe7ef3,
+        type: 2}
+      propertyPath: message
+      value: '"so I''ll be your eyes."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114107440811069062, guid: 35e9de14a4e314145889d20443fe7ef3,
+        type: 2}
+      propertyPath: message
+      value: '"And I''m busting you all out of here."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114691561344129868, guid: 35e9de14a4e314145889d20443fe7ef3,
+        type: 2}
+      propertyPath: isFirstStep
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114691561344129868, guid: 35e9de14a4e314145889d20443fe7ef3,
+        type: 2}
+      propertyPath: _waitForAnimToFinish
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35e9de14a4e314145889d20443fe7ef3, type: 2}
@@ -1739,6 +1769,12 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400008, guid: f365f97456a68b9418c1513d9fec7229, type: 3}
   m_PrefabInternal: {fileID: 631813470}
+--- !u!114 &646958741 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114076420781508330, guid: 35e9de14a4e314145889d20443fe7ef3,
+    type: 2}
+  m_PrefabInternal: {fileID: 407393801}
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
 --- !u!1 &661248839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,6 +1852,12 @@ MeshFilter:
 Transform:
   m_PrefabParentObject: {fileID: 408470, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
   m_PrefabInternal: {fileID: 308635682}
+--- !u!114 &717386234 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114778949121329314, guid: 35e9de14a4e314145889d20443fe7ef3,
+    type: 2}
+  m_PrefabInternal: {fileID: 407393801}
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
 --- !u!114 &729583079 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114918477345334952, guid: c5e1d13edd45eb944bd40d8328dff96f,
@@ -3418,6 +3460,12 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400008, guid: f365f97456a68b9418c1513d9fec7229, type: 3}
   m_PrefabInternal: {fileID: 1090588557}
+--- !u!114 &1135566618 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114107440811069062, guid: 35e9de14a4e314145889d20443fe7ef3,
+    type: 2}
+  m_PrefabInternal: {fileID: 407393801}
+  m_Script: {fileID: 11500000, guid: 4b4879ca697f9a543accd8874a4ea992, type: 3}
 --- !u!1001 &1144292294
 Prefab:
   m_ObjectHideFlags: 0
@@ -4910,7 +4958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disableWhenIdle: 1
-  touchHighlightColor: {r: 0.85294116, g: 0.83754325, b: 0.2947664, a: 0}
+  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   allowedTouchControllers: 0
   ignoredColliders: []
   isGrabbable: 1
@@ -5219,7 +5267,7 @@ Prefab:
     - target: {fileID: 224606264777785898, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 158.67767
+      value: 162.21198
       objectReference: {fileID: 0}
     - target: {fileID: 224606264777785898, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
@@ -5229,7 +5277,7 @@ Prefab:
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 170.5785
+      value: 167.12749
       objectReference: {fileID: 0}
     - target: {fileID: 224925613045343284, guid: 94298e5e58262cd4f807bc7f4b5ebe71,
         type: 2}
