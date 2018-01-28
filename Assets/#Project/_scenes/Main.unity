@@ -16910,6 +16910,7 @@ Transform:
   - {fileID: 1050393824}
   - {fileID: 350948972}
   - {fileID: 1525466236}
+  - {fileID: 1049778352}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21263,7 +21264,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 15:29:30
+  m_Text: 11-10-84 15:43:26
 --- !u!222 &701463859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29962,6 +29963,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd94e194f09c43c409c33563c6c0132a, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &975640163 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114207382604336348, guid: dd94e194f09c43c409c33563c6c0132a,
+    type: 2}
+  m_PrefabInternal: {fileID: 975640162}
+  m_Script: {fileID: 11500000, guid: bea43bc385cdb6b4fb8cbcac5cf03674, type: 3}
 --- !u!1001 &975931788
 Prefab:
   m_ObjectHideFlags: 0
@@ -32034,6 +32041,49 @@ Transform:
   m_Father: {fileID: 550422127}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1049778351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1049778352}
+  - component: {fileID: 1049778353}
+  m_Layer: 0
+  m_Name: Lever
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1049778352
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1049778351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.986241, y: 0.029, z: -4.548}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 550422127}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1049778353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1049778351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44cd0f80dcc4154e8dfa89570987c97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _target: {fileID: 1049778352}
+  fadeInTime: 1
+  blinkToColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &1050393823
 GameObject:
   m_ObjectHideFlags: 0
@@ -36114,6 +36164,16 @@ Prefab:
       propertyPath: dropPanel
       value: 
       objectReference: {fileID: 401360897}
+    - target: {fileID: 114571339859623842, guid: 35e9de14a4e314145889d20443fe7ef3,
+        type: 2}
+      propertyPath: _openDoor
+      value: 
+      objectReference: {fileID: 975640163}
+    - target: {fileID: 114571339859623842, guid: 35e9de14a4e314145889d20443fe7ef3,
+        type: 2}
+      propertyPath: _teleport
+      value: 
+      objectReference: {fileID: 1049778353}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35e9de14a4e314145889d20443fe7ef3, type: 2}
   m_IsPrefabParent: 0
@@ -60803,7 +60863,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 15:29:30
+  m_Text: 11-10-84 15:43:26
 --- !u!222 &1970367710
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -63885,7 +63945,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11-10-84 15:29:30
+  m_Text: 11-10-84 15:43:26
 --- !u!222 &2092365615
 CanvasRenderer:
   m_ObjectHideFlags: 0

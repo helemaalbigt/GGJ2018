@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VRTK;
 
 public class SuccessMessageStep : GameStep {
     [Space(25)]
     public TextPrompt _prompt;
+    public PushAction _openDoor;
+    public TeleportPrisoner _teleport;
     private string msg1 = "\"They made it.\"";
 
     public override void StartStep() {
@@ -18,11 +21,11 @@ public class SuccessMessageStep : GameStep {
     }
 
     private void OpenDoor() {
-
+        _openDoor.Push();
     }
 
     private void TeleportPlayerOutside() {
-        
+        _teleport.Teleport();
         Next();
     }
 }

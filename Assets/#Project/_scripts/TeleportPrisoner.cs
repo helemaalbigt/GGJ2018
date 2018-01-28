@@ -10,8 +10,7 @@ namespace VRTK
 	[AddComponentMenu("VRTK/Scripts/Locomotion/TeleportPrisoner")]
 	public class TeleportPrisoner : MonoBehaviour
 	{
-		public Vector3 _destinationPosition;
-		public Vector3 _destinationRotation;
+	    public Transform _target;
 		public float fadeInTime = 1f;
 		public Color blinkToColor = Color.black;
 
@@ -20,12 +19,11 @@ namespace VRTK
 		}
 
 		public void Teleport() {
-			Debug.Log ("Teleporting player to: " + _destinationPosition);
 
 			//VRTK_SDK_Bridge.HeadsetFade(blinkToColor, fadeInTime, true); // Color.clear
 
-			transform.position = _destinationPosition;
-			transform.rotation = Quaternion.Euler(_destinationRotation);
+		    transform.position = _target.position;
+			transform.rotation = _target.rotation;
 
 		}
 	}
