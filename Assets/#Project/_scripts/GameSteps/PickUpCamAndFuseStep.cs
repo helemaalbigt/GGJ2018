@@ -13,6 +13,7 @@ public class PickUpCamAndFuseStep : GameStep {
     public VRTK_SnapDropZone_UnityEvents fuse2;
     public VRTK_SnapDropZone_UnityEvents fuse3;
     public KillerCollider ceilingCollider;
+    public PushAction pushAction;
     public GameStep failStep;
 
     [Space(15)]
@@ -39,6 +40,7 @@ public class PickUpCamAndFuseStep : GameStep {
         fuse2.OnObjectUnsnappedFromDropZone.AddListener(OnGrabFuse);
         fuse3.OnObjectUnsnappedFromDropZone.AddListener(OnGrabFuse);
         ceilingCollider.collisionEvents.AddListener(OnCeilingKill);
+        pushAction.PushCompletedEvents.AddListener(OnPlayerSurvive);
 
         ShowMsg1();
 
@@ -89,7 +91,6 @@ public class PickUpCamAndFuseStep : GameStep {
 
     private void ShowMsg8() {
         _prompt.ShowText(msg8, 5f);
-        Next();
     }
 
     private void OnGrabCam(object arg0, InteractableObjectEventArgs interactableObjectEventArgs) {
@@ -109,6 +110,7 @@ public class PickUpCamAndFuseStep : GameStep {
         }
 
         allFusesPulled = true;
+        pushAction.Push();
 
         ShowMsg5();
     }
@@ -119,5 +121,10 @@ public class PickUpCamAndFuseStep : GameStep {
 
     private void OnCeilingKill() {
         failStep.StartStep();
+    }
+
+    private void OnPlayerSurvive() {
+        _prompt.Clear();
+        Next();
     }
 }
