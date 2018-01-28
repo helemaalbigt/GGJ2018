@@ -17,7 +17,7 @@ public class OperatorCam : MonoBehaviour
         {
             _active = value;
 
-            cam.gameObject.SetActive(value);
+            gameObject.SetActive(value);
             /*ScreenSpace
             if (_active)
             {
