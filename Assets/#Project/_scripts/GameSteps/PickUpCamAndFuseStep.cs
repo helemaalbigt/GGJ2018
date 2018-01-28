@@ -9,9 +9,11 @@ public class PickUpCamAndFuseStep : GameStep {
     public TextPrompt _prompt;
 
     public VRTK_InteractableObject_UnityEvents cam;
-    public VRTK_InteractableObject_UnityEvents fuse1;
-    public VRTK_InteractableObject_UnityEvents fuse2;
-    public VRTK_InteractableObject_UnityEvents fuse3;
+    public VRTK_SnapDropZone_UnityEvents fuse1;
+    public VRTK_SnapDropZone_UnityEvents fuse2;
+    public VRTK_SnapDropZone_UnityEvents fuse3;
+    public KillerCollider ceilingCollider;
+    public GameStep failStep;
 
     [Space(15)]
     public bool autoGrabCam;
@@ -20,7 +22,7 @@ public class PickUpCamAndFuseStep : GameStep {
     private string msg1 = "\"Now tell them to pick up that handheld camera so we can see the inside.\"";
     private string msg2 = "\"There should be three fuses...\"";
     private string msg3 = "\"... and if they disconnect them in the right order, it should open the door.\"";
-    private string msg4 = "\"Tell them to pull the left, then the right and finally the middle one.\"";
+    private string msg4 = "\"Tell them to pull the top, then the bottom and finally the middle one.\"";
 
     private string msg5 = "\"WHAT DID YOU DO?!\"";
     private string msg6 = "\"IS THAT CEILING COMING DOWN?!!\"";
@@ -33,12 +35,10 @@ public class PickUpCamAndFuseStep : GameStep {
 
     public override void StartStep() {
         cam.OnGrab.AddListener(OnGrabCam);
-        if(fuse1!=null)
-            fuse1.OnGrab.AddListener(OnGrabFuse);
-        if(fuse2 != null)
-            fuse2.OnGrab.AddListener(OnGrabFuse);
-        if(fuse3 != null)
-            fuse3.OnGrab.AddListener(OnGrabFuse);
+        fuse1.OnObjectUnsnappedFromDropZone.AddListener(OnGrabFuse);
+        fuse2.OnObjectUnsnappedFromDropZone.AddListener(OnGrabFuse);
+        fuse3.OnObjectUnsnappedFromDropZone.AddListener(OnGrabFuse);
+        ceilingCollider.collisionEvents.AddListener(OnCeilingKill);
 
         ShowMsg1();
 
@@ -99,7 +99,7 @@ public class PickUpCamAndFuseStep : GameStep {
         }
     }
 
-    private void OnGrabFuse(object arg0, InteractableObjectEventArgs interactableObjectEventArgs) {
+    private void OnGrabFuse(object arg0, SnapDropZoneEventArgs snapDropZoneEventArgs) {
         fusesPulled++;
     }
 
@@ -115,5 +115,9 @@ public class PickUpCamAndFuseStep : GameStep {
 
     private void SetAllFusesPulled() {
         fusesPulled = 3;
+    }
+
+    private void OnCeilingKill() {
+        failStep.StartStep();
     }
 }
