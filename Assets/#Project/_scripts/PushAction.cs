@@ -8,6 +8,7 @@ public class PushAction : MonoBehaviour {
 	public Vector3 PushVector;
 	public Vector3 PushRotation;
 
+    public UnityEvent PushStartedEvents;
 	public UnityEvent PushCompletedEvents;
 
 	public float TimeToPush = 1.0f;
@@ -26,6 +27,7 @@ public class PushAction : MonoBehaviour {
 
 	public void Push() {
 		Debug.Log("Pushing game object " + this.name);
+        PushStartedEvents.Invoke();
 		StartCoroutine (_Push());
 	}
 
